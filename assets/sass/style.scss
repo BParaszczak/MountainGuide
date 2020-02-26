@@ -1,0 +1,14 @@
+@import 'includes/variables';
+@import 'includes/normalize';
+@import 'includes/mixins';
+@import 'sections/header';
+@import 'sections/home';
+@import 'sections/about';
+@import 'sections/services';
+@import 'sections/guided';
+@import 'sections/credits';
+@import 'sections/contact';
+
+body {
+    font-family: $mainTextFont;
+}
