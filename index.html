@@ -6,38 +6,52 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Mountain Guide</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 </head>
 
 <body>
     <!-- SITE MENU -->
-    <header>
+    <header id="header">
         <!-- NAVIGATION -->
         <nav>
             <ul class="navigation">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Trekking</a></li>
-                <li><a href="#">Climbing & Mountaineering</a></li>
-                <li><a href="#">Skitouring</a></li>
-                <li><a href="#">Credits</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#trekking">Trekking</a></li>
+                <li><a href="#climbing">Climbing</a></li>
+                <li><a href="#skitouring">Skitouring</a></li>
+                <li><a href="#references">References</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <!-- SOCIAL MEDIA LINKS -->
         <div class="social">
             <ul>
-                <li><a href="facebook.com"></a></li>
-                <li><a href="twitter.com"></a></li>
-                <li><a href="instagram.com"></a></li>
+                <li><a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
     </header>
 
     <!-- HOME -->
     <section id="home">
-        <div class="home-movie"></div>
-        <div class="home-movie"></div>
-        <div class="home-movie"></div>
+        <div class="home-video">
+            <video class="v1" autoplay muted loop>
+                <source src="assets/video/climber.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="home-video">
+            <video class="v2" autoplay muted loop>
+                <source src="assets/video/mountain2.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="home-video">
+            <video class="v3" autoplay muted loop>
+                <source src="assets/video/mountain1.mp4" type="video/mp4" />
+            </video>
+        </div>
     </section>
 
     <!-- ABOUT -->
@@ -102,7 +116,7 @@
         </div>
     </section>
     <!-- CLIMBING & MOUNAINEERING -->
-    <section id="climb-mount">
+    <section id="climbing">
         <h1>Climbing & Mountaineering</h1>
         <h3>Find the best of adventures in rock, snow and ice</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio quis natus in illum dolorem
@@ -150,7 +164,7 @@
 
     <!-- TESTIMONIALS -->
     <!-- carousel; 5 cit -->
-    <section id="testimonials">
+    <section id="references">
         <h1>Testimonials</h1>
         <h3>The joy of mountain life is never full without the ones who live it with us</h3>
         <div class="carousel">
@@ -197,6 +211,9 @@
             </ul>
         </div>
     </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery-3.4.1.js"></script>
 </body>
 
 </html>

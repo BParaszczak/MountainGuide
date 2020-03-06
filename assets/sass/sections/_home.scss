@@ -1,0 +1,36 @@
+#home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    .home-video {
+        width: calc(100% / 3);
+        height: 100vh;
+        z-index: -100;
+        overflow: hidden;
+        background-size: cover;
+        object-fit: cover;
+        object-position: 50% 0;
+
+        video {
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        video.v1 {
+            transform: translateX(-20%);
+        }
+
+        video.v2 {
+            transform: translateX(-20%);
+        }
+
+        video.v3 {
+            transform: translateX(-30%);
+
+        }
+
+
+    }
+}
